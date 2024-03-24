@@ -14,7 +14,7 @@ export default function Cards() {
 
                 <div className="overflow-x-auto">
                     <div className="flex w-[1200px] space-x-4">
-                        <Card title="The First Card" bgColor="[#191AFE]" brColor="[#191AFE]" textColor="white">
+                        <Card title="The First Card" bgColor="[#191AFE]" brColor="bBlu" textColor="white">
                             <p>It is a long established fact that a reader will be
                                 distracted by the readable content of a page when
                                 looking at its layout. </p>
@@ -23,10 +23,10 @@ export default function Cards() {
                                 <br />
                                 <br />
                                 <div className="flex justify-start ml-5">
-                                <MyButton text="GET STARTED" bgColor="white" textColor="[#191AFE]" brColor="blue" />
+                                <MyButton text="GET STARTED" bgColor="white" textColor="[#191AFE]" brColor="" />
                                 </div>
                         </Card>
-                        <Card title="Yet another one" bgColor="white" brColor="[#010521]" textColor="black">
+                        <Card title="Yet another one" bgColor="white" brColor="black" textColor="black">
                             <p>The point of using Lorem Ipsum is that it has a
                                 more-or-less normal distribution of letters, as opposed
                                 to using 'Content here, content here', </p>
@@ -38,7 +38,7 @@ export default function Cards() {
                                 <MyButton text="GET STARTED" bgColor="[#191AFE]" textColor="white" brColor="blue" />
                                 </div>
                         </Card>
-                        <Card title="We really like these" bgColor="white" brColor="[#010521]" textColor="black">
+                        <Card title="We really like these" bgColor="white" brColor="black" textColor="black">
                             <p>making it look like readable English. Many desktop
                                 publishing packages and web page editors now use
                                 Lorem Ipsum as their default model text, and a search

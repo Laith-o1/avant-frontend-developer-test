@@ -16,6 +16,8 @@ export default function Card({
 }) {
    return (
       <div className={`h-fit w-fit rounded bg-gradient-to-br from-${brColor} via-${brColor} to-white p-1 shadow-md`}>
+       {/* static version */}
+      {/* <div className="h-fit w-fit rounded bg-gradient-to-br from-black via-black to-white p-1 shadow-md"> */}
          <div className={`flex flex-col h-[419px] w-[392px] bg-${bgColor}`}>
             {imgSrc ? (
                <div className="bg-[#191AFE] w-fit mt-5 ml-5 rounded-full p-4">

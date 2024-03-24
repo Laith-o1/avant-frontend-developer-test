@@ -11,6 +11,10 @@ const config: Config = {
       'gilroy': ['gilroy', 'sans-serif'],
     },
     extend: {
+      colors: {
+        'bBlu': '#191AFE',
+        'bBlack': '#010521',
+      },
     },
   },
   plugins: [],
