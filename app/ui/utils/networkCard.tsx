@@ -14,9 +14,9 @@ export default function NetworkCard({
     return (
         <div className="mx-auto">
             <div className="h-fit w-fit p-1">
-                <div className="relative flex flex-col h-[419px] w-[392px] bg-[#010521] overflow-hidden">
-                    <div className="text-white ml-2 text-center mt-20 text-4xl">{title}</div>
-                    <div className="text-white text-lg w-[80%] mx-auto mt-4 text-center space-y-2">{content}</div>
+                <div className="relative flex flex-col h-[419px] w-full bg-[#010521] overflow-hidden">
+                    <div className="text-white mt-20 mx-auto text-4xl">{title}</div>
+                    <div className="text-white text-lg w-[80%] mx-auto flex justify-center mt-4 text-center space-y-2">{content}</div>
                     <div className="mx-auto mt-4">
                         {children}
                     </div>
