@@ -20,7 +20,7 @@ export default function NetworkCard({
                     <div className="mx-auto mt-4">
                         {children}
                     </div>
-                    {showCardCube && <img src="/images/cardCube.png" alt="network" className="absolute h-64 -bottom-9 right-0 " />}
+                    {showCardCube && <img src="/images/cardCube.png" alt="network" className="absolute h-56 -bottom-9 right-0 " />}
                 </div>
             </div>
         </div>
