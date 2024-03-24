@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
       
       {/* add image fixed in the bottom left corner */}
-      <img src="/images/MainCube.png" alt="hero" className="absolute -bottom-9 left-44 sm:left-[60rem]" />
+      <img src="/images/mainCube.png" alt="hero" className="absolute -bottom-9 left-44 sm:left-[60rem]" />
 
     </section>
   );
