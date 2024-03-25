@@ -4,15 +4,15 @@ import MyButton from "../utils/myButton";
 export default function OurStory() {
     return (
         <section className="relative bg-hero-pattern bg-cover bg-center bg-white h-fit flex items-center justify-center overflow-hidden sm:h-screen">
-            <div className="flex flex-col space-x-5  sm:flex-row-reverse">
+            <div className="flex flex-col space-x-5 mt-4 sm:flex-row-reverse">
                 <div className="sm:flex sm:items-center">
-                    <div className="text-5xl font-bold space-y-10 mt-5  text-center sm:text-left" >
-                        <div>
+                    <div className="space-y-10 mt-5  text-center sm:text-left" >
+                        <div className="font-bold text-5xl p-5 ">
                             <p>Join a team where</p>
                             <p>innovation is an</p>
                             <p> expectation</p>
                         </div>
-                        <div className="text-xl text-center space-y-2 sm:text-left">
+                        <div className="text-xl text-center space-y-2 sm:text-left p-5">
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br /> when an unknown printer took a galley of type specimen book.
                             </p>

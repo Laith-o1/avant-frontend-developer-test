@@ -7,13 +7,13 @@ export default function Cards() {
         <section className="bg-hero-pattern bg-cover bg-center bg-white h-screen w-screen">
             <div className="flex flex-col space-y-4">
                 <div className="mt-5 text-left" >
-                    <p className="text-3xl font-bold">
+                    <p className="text-2xl font-bold sm:text-3xl">
                         Cards are an essential <br /> Element of a clear User Interface
                     </p>
                 </div>
 
                 <div className="overflow-x-auto">
-                    <div className="flex w-[1200px] space-x-4">
+                    <div className="flex w-[1200px] space-x-4 m-5 mx-5">
                         <Card title="The First Card" bgColor="[#191AFE]" brColor="bBlu" textColor="white">
                             <p>It is a long established fact that a reader will be
                                 distracted by the readable content of a page when

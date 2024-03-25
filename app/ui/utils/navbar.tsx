@@ -40,18 +40,19 @@ export default function Navbar() {
       </div>
       {/* modal */}
       {isOpen && (
-        <div className='fixed top-0 left-0 w-full h-1/2 bg-black bg-opacity-50 z-50'>
-          <div className='w-80% bg-white h-full'>
+        <div className='fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-50'>
+          <div className='w-80% bg-white h-full backdrop-filter backdrop-blur-lg bg-opacity-15'>
             <div className='flex justify-end'>
               <div className='w-fit h-fit mr-3' onClick={toggleModal}>
-                <p className='font-bold text-3xl mt-7'>X</p>
+                <p className='text-white text-3xl mt-7'>X</p>
               </div>
             </div>
             <div className='flex flex-col space-y-5 ml-2'>
               {links.map((link) => (
                 <Link key={link.name} href={link.href}
+                onClick={toggleModal}
                   className={clsx(
-                    'text-black font-bold rounded',
+                    'text-white font-bold rounded',
                     {
                       'bg-sky-100 text-blue-600': pathname === link.href,
                     }
@@ -62,7 +63,8 @@ export default function Navbar() {
               ))}
               {/* #Investor-Sign-In link */}
               <Link href='#Investor-Sign-In'
-    className='text-black font-bold rounded'
+    className='text-white font-bold rounded'
+    onClick={toggleModal}
 >
     Investor Sign In
 </Link>
